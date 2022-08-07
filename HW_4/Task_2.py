@@ -4,7 +4,7 @@
 '''
 num = int(input("Введите число: "))
 print("Простые делители " + str(num) + " -> ", end = " ")
-for i in range(num, 0, -1):
+for i in range(num, 1, -1):
     simple_div = 0
     if num % i == 0:
         for j in range(i-1, 1, -1):
